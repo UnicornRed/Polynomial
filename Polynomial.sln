@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polynomial", "Polynomial\Polynomial.csproj", "{6C097199-7A08-4A9B-838A-27F6E87C105F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsUI", "WinFormsUI\WinFormsUI.csproj", "{1D597DED-2D45-4C2A-9919-F0E32EF2D9AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C097199-7A08-4A9B-838A-27F6E87C105F} = {6C097199-7A08-4A9B-838A-27F6E87C105F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C097199-7A08-4A9B-838A-27F6E87C105F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C097199-7A08-4A9B-838A-27F6E87C105F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C097199-7A08-4A9B-838A-27F6E87C105F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C097199-7A08-4A9B-838A-27F6E87C105F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D597DED-2D45-4C2A-9919-F0E32EF2D9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D597DED-2D45-4C2A-9919-F0E32EF2D9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D597DED-2D45-4C2A-9919-F0E32EF2D9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D597DED-2D45-4C2A-9919-F0E32EF2D9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20B25FD0-1069-46C0-AD20-0C7EAB111BA6}
+	EndGlobalSection
+EndGlobal
